@@ -1,0 +1,91 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, #e6f0ea 0%, #f7f5e6 100%);
+  min-height: 100vh;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #8bb89c);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #a3c9c7);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  background: #f7f5e6;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(139, 184, 156, 0.08);
+}
+
+.read-the-docs {
+  color: #8bb89c;
+}
+
+/* Modern UI for MUI overrides */
+.MuiContainer-root {
+  background: rgba(255,255,255,0.7);
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(139, 184, 156, 0.10);
+  padding: 2rem 2.5rem;
+}
+
+.MuiTextField-root {
+  background: #f7f5e6;
+  border-radius: 10px;
+}
+
+.MuiFormControl-root {
+  background: #e6f0ea;
+  border-radius: 10px;
+}
+
+.MuiButton-root {
+  background: linear-gradient(90deg, #8bb89c 0%, #a3c9c7 100%);
+  color: #213547;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(139, 184, 156, 0.08);
+  font-weight: 600;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.MuiButton-root:hover {
+  background: linear-gradient(90deg, #a3c9c7 0%, #8bb89c 100%);
+  box-shadow: 0 4px 16px rgba(139, 184, 156, 0.15);
+}
+
+.MuiTypography-h3, .MuiTypography-h6 {
+  color: #4a5c4f;
+  font-family: 'Segoe UI', 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+.MuiTypography-h6 {
+  margin-bottom: 0.5em;
+}
+
+.MuiBox-root {
+  background: none;
+}
