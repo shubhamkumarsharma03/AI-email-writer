@@ -37,6 +37,22 @@ AI-email-writer/
 - Integrates with Gemini API
 
 ## Getting Started
+[![](email-writer-react/public/vite.svg)](email-writer-react/public/vite.svg)
+
+## Screenshots
+
+### 1. Initial UI State
+![Initial UI State](email-writer-react/public/initial-ui.png)
+
+### 2. Tone Selection Dropdown
+![Tone Selection Dropdown](email-writer-react/public/tone-dropdown.png)
+
+### 3. Reply Generation Example
+![Reply Generation Example](email-writer-react/public/email-reply-generated.png)
+
+
+
+<!-- Place your images in email-writer-react/public/ and update the filenames above if needed -->
 
 ### Prerequisites
 - Node.js (v18+ recommended)
