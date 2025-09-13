@@ -1,3 +1,4 @@
+# AI-email-writer
 ## Project Overview
 This project is an AI-powered email writer application, consisting of a React frontend and a Spring Boot backend. It leverages the Gemini API for generating email content based on user input.
 
@@ -125,4 +126,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 **Note:** Never share your Gemini API key publicly. Keep it secure and use environment variables for configuration.
-# AI-email-writer
+
